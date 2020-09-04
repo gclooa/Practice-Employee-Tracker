@@ -1,33 +1,104 @@
 Welcome to employee tracker. By GCLOOA 2020.
 Please select a command:
 join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
-Input: join bruh
-bruh joined.
+Input: join alex
+alex joined.
 
 Please select a command:
 join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
-Input: join looa
-looa joined.
+Input: join dima
+dima joined.
 
 Please select a command:
 join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
-Input: join heheh
-heheh joined.
-
-Please select a command:
-join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
-Input: join bruh
-bruh joined.
+Input: join boris
+boris joined.
 
 Please select a command:
 join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
 Input: salary
 Employee list and salary:
 [Rank] [Name]     [Salary]
- 4      bruh       $8000
- 3      looa       $6000
- 2      heheh      $4000
- 1      bruh       $2000
+ 3      alex       $6000
+ 2      dima       $4000
+ 1      boris      $2000
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: employees
+Employee list:
+[Rank] [Name]
+ 3      alex
+ 2      dima
+ 1      boris
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join vadim
+vadim joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join anatoli
+anatoli joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: salary
+Employee list and salary:
+[Rank] [Name]     [Salary]
+ 5      alex       $10000
+ 4      dima       $8000
+ 3      boris      $6000
+ 2      vadim      $4000
+ 1      anatoli    $2000
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: demote dima
+dima demoted.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: salary
+Employee list and salary:
+[Rank] [Name]     [Salary]
+ 5      alex       $10000
+ 4      boris      $8000
+ 3      dima       $6000
+ 2      vadim      $4000
+ 1      anatoli    $2000
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: promote boris
+boris promoted.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: salary
+Employee list and salary:
+[Rank] [Name]     [Salary]
+ 5      boris      $10000
+ 4      alex       $8000
+ 3      dima       $6000
+ 2      vadim      $4000
+ 1      anatoli    $2000
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: quit vadim
+vadim quit.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: employees
+Employee list:
+[Rank] [Name]
+ 4      boris
+ 3      alex
+ 2      dima
+ 1      anatoli
 
 Please select a command:
 join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
@@ -36,8 +107,8 @@ Input: end
 Final employee list:
 Employee list and salary:
 [Rank] [Name]     [Salary]
- 4      bruh       $8000
- 3      looa       $6000
- 2      heheh      $4000
- 1      bruh       $2000
+ 4      boris      $8000
+ 3      alex       $6000
+ 2      dima       $4000
+ 1      anatoli    $2000
 End of activity log.
