@@ -1,0 +1,43 @@
+Welcome to employee tracker. By GCLOOA 2020.
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join bruh
+bruh joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join looa
+looa joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join heheh
+heheh joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: join bruh
+bruh joined.
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: salary
+Employee list and salary:
+[Rank] [Name]     [Salary]
+ 4      bruh       $8000
+ 3      looa       $6000
+ 2      heheh      $4000
+ 1      bruh       $2000
+
+Please select a command:
+join <person> | quit <person> | promote <person> | demote <person> | salary | employees | end
+Input: end
+
+Final employee list:
+Employee list and salary:
+[Rank] [Name]     [Salary]
+ 4      bruh       $8000
+ 3      looa       $6000
+ 2      heheh      $4000
+ 1      bruh       $2000
+End of activity log.
